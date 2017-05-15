@@ -30,11 +30,7 @@
     #navig {
         width: 50%;
     }
-    
-    ul {
-        list-style: none;
-    }
-    
+
     #pos {
         display: flex;
         justify-content: space-between;
@@ -67,8 +63,8 @@
         height: 5px;
         border: 1px solid black;
         background-color: black;
-        margin-left: 246px;
-        margin-top: -13px;
+        margin-left: 218px;
+        margin-top: 7px;
     }
     
     .banner {
@@ -177,17 +173,17 @@
         padding-top: 0;
     }
     
-    time {
+    .box2 .b2time, .box1 .b1time{
         font-size: 25px;
         font-weight: 800;
+       
     }
     
-    .b2time time {
-        padding-left: 471px;
-    }
-    
-    .box1 h1,
-    .box2 h1 {
+.box2 .b2time{
+     padding-left: 471px;
+}
+    .box1 h1, .box1 h2,
+    .box2 h2 {
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 1px;
@@ -195,25 +191,28 @@
         margin-bottom: 21px;
     }
     
-    .box1 h1 {
+    .box1 h1, .box1 h2 {
         padding-left: 0;
     }
     
     .box1 h1,
-    .box2 h1 span {
+    .box2 h2 span {
         font-size: 60px;
     }
     
-    .box2 h1 {
+    .box2 h2 {
         font-size: 45px;
         padding-left: 205px;
         text-align: end;
     }
     
-    .article3 h1 {
+    .article3 .box1 h2 {
         font-size: 79px;
     }
     
+.article4 .box2 h2{
+    padding-left: 12px;
+}
     .box1 p,
     .box2 p {
         font-size: 15px;
@@ -353,7 +352,7 @@
         margin-top: 60px;
     }
     
-    .sign_up h1 {
+    .sign_up h2 {
         font-size: 50px;
         font-weight: 700;
         letter-spacing: 2px;
@@ -469,14 +468,14 @@
         padding-left: 28px;
     }
     
-    #pr1 h1,
-    #pr2 h1,
-    #pr3 h1 {
+    #pr1 h2,
+    #pr2 h2,
+    #pr3 h2 {
         position: absolute;
         color: white;
         font-size: 79.02px;
         font-weight: 800;
-        padding-top: 134px;
+        padding-top: 122px;
         padding-left: 107px;
         letter-spacing: 8px;
         text-shadow: 0px 0px 20px rgba(48, 48, 48, 0.7);
